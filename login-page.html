@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Login Form</title>
+  
+  
+  	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+  <body class="login-page-body">
+  	<header class="headers fixed-top  clearfix">
+    <div class="header-page row center-page">
+      <div class="logo col-md-2">
+        <a class="navbar-brand" href="index.html">AMC</a>
+      </div>
+      <div class="lists col-md-10">
+        <a class="link1 " href="index.html">Home </a>
+        <a class="link1 " href="user-login1.html">Register</a></li>
+        <a class="link1 " href="check_status.html"> Complaint Status</a>
+        <a class="link1 " href="contact.html">Contact</a> 
+        <a class="link1 " href="services.html">Services</a> 
+        <a class="link1 " href="login-page.html"> Login</a>
+          
+    </div>
+  </header>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Login</h1>
+			</div>
+			<form method="POST" action="login.php">
+				<div class="login-form">
+					<div class="control-group">
+						<input type="text" class="login-field" name="username" placeholder="username" id="login-name" required>
+						<label class="login-field-icon fui-user" for="login-name" required></label>
+					</div>
+
+					<div class="control-group">
+						<input type="password" class="login-field" name="password" placeholder="password" id="login-pass" required>
+						<label class="login-field-icon fui-lock" for="login-pass"></label>
+					</div>
+					<input id="button" type="submit" name="submit" value="Log-In" class="btn btn-primary btn-large btn-block">
+					<!--<a class="btn btn-primary btn-large btn-block" href="#" name="submit" value="Log-In">login</a>-->
+				</div>
+			</form> 
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
